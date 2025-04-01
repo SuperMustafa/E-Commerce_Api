@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Shared;
+
+namespace Services.Abstraction.Products
+{
+    public interface IProductService
+    {
+        //Get All Products
+        public Task<IEnumerable<ProductResultDto>> GetAllProductsAsync();
+        //Get product by id
+        public Task<ProductResultDto?> GetProductByIdAsync(int id);
+        //get all Brands
+        public Task<IEnumerable<ProductBrandDto>> GetAllBrandsAsync();
+        //get all types
+        public Task<IEnumerable<ProductTypeDto>> GetAllTypesAsync();
+
+
+
+    }
+}

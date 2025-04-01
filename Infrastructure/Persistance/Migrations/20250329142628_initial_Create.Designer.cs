@@ -11,8 +11,8 @@ using Persistance.Data;
 namespace Persistance.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250324205443_initial create")]
-    partial class initialcreate
+    [Migration("20250329142628_initial_Create")]
+    partial class initial_Create
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -15,3 +15,4 @@ E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Presentaion\obj\Debug\net8.
 E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Presentaion\obj\Debug\net8.0\refint\Presentaion.dll
 E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Presentaion\obj\Debug\net8.0\Presentaion.pdb
 E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Presentaion\obj\Debug\net8.0\ref\Presentaion.dll
+E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Presentaion\obj\Debug\net8.0\Presentaion.sourcelink.json

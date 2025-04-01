@@ -13,3 +13,4 @@ E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Persistance\obj\Debug\net8.
 E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Persistance\obj\Debug\net8.0\refint\Persistance.dll
 E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Persistance\obj\Debug\net8.0\Persistance.pdb
 E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Persistance\obj\Debug\net8.0\ref\Persistance.dll
+E:\asp.net\Assignments\Api\E-Commerce\Infrastructure\Persistance\obj\Debug\net8.0\Persistance.sourcelink.json
