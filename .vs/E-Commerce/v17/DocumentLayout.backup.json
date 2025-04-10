@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\productcountspecifcations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\productcountspecifcations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\specifications\\productwithbrandandtypespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\specifications\\productwithbrandandtypespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|solutionrelative:infrastructure\\persistance\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\core\\domain\\contracts\\specifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\specifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\core\\domain\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19154BE9-CD1D-44C1-93F4-5C5693957B3F}|Shared\\Shared.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\shared\\productparameterspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19154BE9-CD1D-44C1-93F4-5C5693957B3F}|Shared\\Shared.csproj|solutionrelative:shared\\productparameterspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB0A5D99-98D9-4C86-A5D7-CEB728440683}|Services.Abstraction\\Services.Abstraction.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services.abstraction\\products\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB0A5D99-98D9-4C86-A5D7-CEB728440683}|Services.Abstraction\\Services.Abstraction.csproj|solutionrelative:services.abstraction\\products\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19154BE9-CD1D-44C1-93F4-5C5693957B3F}|Shared\\Shared.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19154BE9-CD1D-44C1-93F4-5C5693957B3F}|Shared\\Shared.csproj|solutionrelative:shared\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2454C7E1-11B9-4102-8EE9-3995EDD4FB3B}|Infrastructure\\Presentaion\\Presentaion.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\presentaion\\products\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2454C7E1-11B9-4102-8EE9-3995EDD4FB3B}|Infrastructure\\Presentaion\\Presentaion.csproj|solutionrelative:infrastructure\\presentaion\\products\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\persistance\\data\\dataseeding\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|solutionrelative:infrastructure\\persistance\\data\\dataseeding\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\persistance\\repositories\\specificationsevalutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|solutionrelative:infrastructure\\persistance\\repositories\\specificationsevalutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19154BE9-CD1D-44C1-93F4-5C5693957B3F}|Shared\\Shared.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\shared\\dtos\\productbranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19154BE9-CD1D-44C1-93F4-5C5693957B3F}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\productbranddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\mappingprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\mappingprofiles\\productprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +69,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\e-commerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|solutionrelative:e-commerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|solutionrelative:e-commerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\persistance\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|solutionrelative:infrastructure\\persistance\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\persistance\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|solutionrelative:infrastructure\\persistance\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\core\\domain\\contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +98,288 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\appsettings.json",
-              "RelativeDocumentMoniker": "e-Commerce\\appsettings.json",
-              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\appsettings.json",
-              "RelativeToolTip": "e-Commerce\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-01T12:15:19.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PictureURLResolver.cs",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\PictureURLResolver.cs",
-              "RelativeDocumentMoniker": "Services\\MappingProfiles\\PictureURLResolver.cs",
-              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\PictureURLResolver.cs*",
-              "RelativeToolTip": "Services\\MappingProfiles\\PictureURLResolver.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Title": "ProductWithBrandAndTypeSpecifications.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Specifications\\ProductWithBrandAndTypeSpecifications.cs",
+              "RelativeDocumentMoniker": "Services\\Specifications\\ProductWithBrandAndTypeSpecifications.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Specifications\\ProductWithBrandAndTypeSpecifications.cs",
+              "RelativeToolTip": "Services\\Specifications\\ProductWithBrandAndTypeSpecifications.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T11:52:28.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductProfile.cs",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\ProductProfile.cs",
-              "RelativeDocumentMoniker": "Services\\MappingProfiles\\ProductProfile.cs",
-              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\ProductProfile.cs*",
-              "RelativeToolTip": "Services\\MappingProfiles\\ProductProfile.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T11:51:17.754Z",
+              "WhenOpened": "2025-04-06T22:10:45.17Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductCountSpecifcations.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\ProductCountSpecifcations.cs",
+              "RelativeDocumentMoniker": "Services\\ProductCountSpecifcations.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\ProductCountSpecifcations.cs",
+              "RelativeToolTip": "Services\\ProductCountSpecifcations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:16:04.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductParameterSpecifications.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Shared\\ProductParameterSpecifications.cs",
+              "RelativeDocumentMoniker": "Shared\\ProductParameterSpecifications.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Shared\\ProductParameterSpecifications.cs",
+              "RelativeToolTip": "Shared\\ProductParameterSpecifications.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:19:05.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "RelativeToolTip": "Core\\Domain\\Contracts\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:56:23.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Repositories\\GenericRepository.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAA/wEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T13:56:17.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\Products\\ProductService.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Products\\ProductService.cs",
+              "RelativeToolTip": "Services\\Products\\ProductService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T16:56:08.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services.Abstraction\\Products\\IProductService.cs",
+              "RelativeDocumentMoniker": "Services.Abstraction\\Products\\IProductService.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services.Abstraction\\Products\\IProductService.cs",
+              "RelativeToolTip": "Services.Abstraction\\Products\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:15:24.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginatedResult.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Shared\\PaginatedResult.cs",
+              "RelativeDocumentMoniker": "Shared\\PaginatedResult.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Shared\\PaginatedResult.cs",
+              "RelativeToolTip": "Shared\\PaginatedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T00:26:34.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Presentaion\\Products\\ProductController.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Presentaion\\Products\\ProductController.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Presentaion\\Products\\ProductController.cs",
+              "RelativeToolTip": "Infrastructure\\Presentaion\\Products\\ProductController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:20:50.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Specifications.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\Specifications.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\Specifications.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\Specifications.cs",
+              "RelativeToolTip": "Core\\Domain\\Contracts\\Specifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T21:21:48.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SpecificationsEvalutor.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\SpecificationsEvalutor.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Repositories\\SpecificationsEvalutor.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\SpecificationsEvalutor.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Repositories\\SpecificationsEvalutor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:43:37.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "products.json",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Data\\DataSeeding\\products.json",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Data\\DataSeeding\\products.json",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Data\\DataSeeding\\products.json",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Data\\DataSeeding\\products.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T17:39:50.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductBrandDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Shared\\Dtos\\ProductBrandDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\ProductBrandDto.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Shared\\Dtos\\ProductBrandDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\ProductBrandDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T00:18:21.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Entities\\Product.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Core\\Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:39:32.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\IUnitOfWork.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\IUnitOfWork.cs",
+              "RelativeToolTip": "Core\\Domain\\Contracts\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:09:44.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:31:46.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\Program.cs",
+              "RelativeDocumentMoniker": "e-Commerce\\Program.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\Program.cs",
+              "RelativeToolTip": "e-Commerce\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:21:52.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceManager.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\ServiceManager.cs",
+              "RelativeToolTip": "Services\\ServiceManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:16:01.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PictureURLResolver.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\PictureURLResolver.cs",
+              "RelativeDocumentMoniker": "Services\\MappingProfiles\\PictureURLResolver.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\PictureURLResolver.cs",
+              "RelativeToolTip": "Services\\MappingProfiles\\PictureURLResolver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:52:28.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\appsettings.json",
+              "RelativeDocumentMoniker": "e-Commerce\\appsettings.json",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\appsettings.json",
+              "RelativeToolTip": "e-Commerce\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-01T12:15:19.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductProfile.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\ProductProfile.cs",
+              "RelativeDocumentMoniker": "Services\\MappingProfiles\\ProductProfile.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\MappingProfiles\\ProductProfile.cs",
+              "RelativeToolTip": "Services\\MappingProfiles\\ProductProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T11:51:17.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:02:33.275Z"
             }
           ]
         }

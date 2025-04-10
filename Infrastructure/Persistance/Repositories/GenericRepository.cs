@@ -22,9 +22,10 @@ namespace Persistance.Repositories
         }
         public async Task<TEntity?> GetAsync(TKey id)
         {
-          return  await _DbContext.Set<TEntity>().FindAsync(id);
+            return await _DbContext.Set<TEntity>().FindAsync(id);
         }
-        public async Task<IEnumerable<TEntity>> GetAllAsync(bool trackChanges=false)
+
+        public async Task<IEnumerable<TEntity>> GetAllAsync(bool trackChanges = false)
         {
             if (trackChanges)
             {
@@ -33,6 +34,18 @@ namespace Persistance.Repositories
             return await _DbContext.Set<TEntity>().AsNoTracking().ToListAsync();
 
         }
+
+        public async Task<IEnumerable<TEntity>> GetAllAsync(Specifications<TEntity> specifications)
+        {
+            return await SpecificationsEvalutor.GetQuery<TEntity>(_DbContext.Set<TEntity>(), specifications).ToListAsync();
+        }
+
+        public async Task<TEntity?> GetAsync(Specifications<TEntity> specifications)
+        {
+            return await SpecificationsEvalutor.GetQuery<TEntity>(_DbContext.Set<TEntity>(), specifications).FirstOrDefaultAsync();
+        }
+
+    
 
         public void DeleteAsync(TEntity entity)
         {
@@ -46,6 +59,16 @@ namespace Persistance.Repositories
         public void UpdateAsync(TEntity entity)
         {
             _DbContext.Set<TEntity>().Update(entity);
+        }
+
+        public async Task<int> GetCountAsync(Specifications<TEntity> specifications)
+        
+           => await ApplySpecificatons(specifications).CountAsync();
+     
+        
+        private IQueryable<TEntity> ApplySpecificatons(Specifications<TEntity> specifications)
+        {
+            return SpecificationsEvalutor.GetQuery<TEntity>(_DbContext.Set<TEntity>(), specifications);
         }
     }
 }

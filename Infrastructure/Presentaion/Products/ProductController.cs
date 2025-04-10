@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Services.Abstraction;
 using Shared;
+using Shared.Dtos;
 
 namespace Presentaion.Products
 {
@@ -15,9 +16,9 @@ namespace Presentaion.Products
     public class ProductController(IServiceManager ServiceManager):ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<ProductResultDto>>> GetAllProducts()
+        public async Task<ActionResult<PaginatedResult<ProductResultDto>>> GetAllProducts([FromQuery]ProductParameterSpecifications Parameters)
         {
-            var Products = await ServiceManager.ProductService.GetAllProductsAsync();
+            var Products = await ServiceManager.ProductService.GetAllProductsAsync(Parameters);
             return Ok(Products);
         }
         [HttpGet("Brands")]

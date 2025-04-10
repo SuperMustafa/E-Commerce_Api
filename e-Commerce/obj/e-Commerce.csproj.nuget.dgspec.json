@@ -187,8 +187,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Domain.csproj"
+              "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Services.csproj": {
+                "projectPath": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Services.csproj"
               }
             }
           }

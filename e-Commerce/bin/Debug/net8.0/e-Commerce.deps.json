@@ -1000,8 +1000,8 @@
       },
       "Persistance/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14"
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.14",
+          "Services": "1.0.0"
         },
         "runtime": {
           "Persistance.dll": {

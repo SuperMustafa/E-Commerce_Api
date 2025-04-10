@@ -163,3 +163,4 @@ E:\asp.net\Assignments\Api\E-Commerce\e-Commerce\bin\Debug\net8.0\AutoMapper.dll
 E:\asp.net\Assignments\Api\E-Commerce\e-Commerce\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 E:\asp.net\Assignments\Api\E-Commerce\e-Commerce\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\asp.net\Assignments\Api\E-Commerce\e-Commerce\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\asp.net\Assignments\Api\E-Commerce\e-Commerce\bin\Debug\net8.0\e-Commerce.staticwebassets.runtime.json
