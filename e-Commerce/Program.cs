@@ -1,5 +1,9 @@
 
 using Domain.Contracts;
+using e_Commerce.Extensions;
+using e_Commerce.Factroies;
+using e_Commerce.MiddleWares;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Persistance;
 using Persistance.Data;
@@ -17,22 +21,31 @@ namespace e_Commerce
 
             // Add services to the container.
 
-            builder.Services.AddControllers().AddApplicationPart(typeof(Presentaion.AssemblyRefence).Assembly);
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-            builder.Services.AddScoped<IDbInitializer, DbInitilaizer>();
-            builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
-            builder.Services.AddScoped<IServiceManager, ServiceManager>();
+            //===================Presentaion services==================
+            builder.Services.AddPresentaionServices();
 
-            builder.Services.AddAutoMapper(typeof(Services.AssembelyReference)); 
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectionString")));
+            //===================Presentaion services==================
+
+
+
+
+            //===================core services==================
+            builder.Services.AddCoreServices();
+
+            //===================core services==================
+
+
+            //===================Infrastructure services==================
+
+            builder.Services.AddInfrastructureServices(builder.Configuration);
+            //===================Infrastructure services==================
+
+
 
             var app = builder.Build();
-
-            //
-            await InitialaizeDb(app);
+           app.UseCustomMiddleWare();
+            
+            await app.SeedDbAsync();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
@@ -52,13 +65,7 @@ namespace e_Commerce
 
             app.Run();
 
-            async Task InitialaizeDb(WebApplication App)
-            {
-                using var scope = App.Services.CreateScope();
-                var DbInitialaizer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
-                await DbInitialaizer.InitializeAsync();
-
-            }
+           
 
         }
     }

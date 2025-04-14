@@ -1,28 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Services.Abstraction;
 using Shared;
-using Shared.Dtos;
+using Shared.Dtos.Product;
+using Shared.ErrorModels;
 
-namespace Presentaion.Products
+namespace Presentaion.Controllers.Products
 {
 
     [ApiController]
-    [Route("api/[controller]")]
-    public class ProductController(IServiceManager ServiceManager):ControllerBase
+    [Route("api/[controller]s")]
+    public class ProductController(IServiceManager ServiceManager) : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult<PaginatedResult<ProductResultDto>>> GetAllProducts([FromQuery]ProductParameterSpecifications Parameters)
+        public async Task<ActionResult<PaginatedResult<ProductResultDto>>> GetAllProducts([FromQuery] ProductParameterSpecifications Parameters)
         {
             var Products = await ServiceManager.ProductService.GetAllProductsAsync(Parameters);
             return Ok(Products);
         }
         [HttpGet("Brands")]
-        public async Task<ActionResult<IEnumerable<ProductBrandDto>>> GetAllBrands() 
+        public async Task<ActionResult<IEnumerable<ProductBrandDto>>> GetAllBrands()
         {
             var Brands = await ServiceManager.ProductService.GetAllBrandsAsync();
             return Ok(Brands);
@@ -37,6 +39,9 @@ namespace Presentaion.Products
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.NotFound)]
+        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.InternalServerError)]
+        [ProducesResponseType(typeof(ProductResultDto), (int)HttpStatusCode.OK)]
 
         public async Task<ActionResult<ProductBrandDto>> GetProductById(int id)
         {
