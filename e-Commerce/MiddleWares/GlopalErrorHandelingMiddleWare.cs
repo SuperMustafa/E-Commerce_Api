@@ -52,20 +52,28 @@ namespace e_Commerce.MiddleWares
 
             //handeling sql error connection (database error )
             httpContext.Response.ContentType = "application/json";
+            var response = new ErrorDetails
+            {
+                ErrorMessage = ex.Message
+            };
             httpContext.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
             httpContext.Response.StatusCode = ex switch
             {
                 NotFoundException => (int)HttpStatusCode.NotFound,
+                UnAuthorizedException => (int)HttpStatusCode.Unauthorized,
+                RegisterValidationException validationException=>HandelValidationException(validationException,response),
                _ => (int)HttpStatusCode.InternalServerError
             };
-            var response = new ErrorDetails
-            {
-                StatusCode = (int)HttpStatusCode.InternalServerError,
-                ErrorMessage = ex.Message
-            }.ToString();
-            await httpContext.Response.WriteAsync(response);
+            response.StatusCode=httpContext.Response.StatusCode;
+            await httpContext.Response.WriteAsync(response.ToString());
             //handeling sql error connection (database error )
 
+        }
+
+        private int HandelValidationException(RegisterValidationException validationException, ErrorDetails response)
+        {
+            response.Errors=validationException.Errors;
+            return (int)HttpStatusCode.BadRequest;
         }
     }
 }

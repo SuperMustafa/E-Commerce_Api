@@ -1,5 +1,111 @@
 [
   {
+    "ContainingType": "Presentaion.Controllers.Authentication.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentication/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "Shared.Dtos.Sequrity.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Presentaion.Controllers.Authentication.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/Authentication/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "Shared.Dtos.Sequrity.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Presentaion.Controllers.Baskets.BasketController",
     "Method": "Update",
     "RelativePath": "api/Basket",
@@ -15,7 +121,34 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Shared.Dtos.Basket.BasketDto",
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -41,7 +174,34 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Shared.Dtos.Basket.BasketDto",
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -65,12 +225,49 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "Presentaion.Controllers.Products.ProductController",
     "Method": "GetAllProducts",
-    "RelativePath": "api/Products",
+    "RelativePath": "api/Product",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -108,7 +305,34 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Shared.PaginatedResult\u00601[[Shared.Dtos.Product.ProductResultDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -121,7 +345,7 @@
   {
     "ContainingType": "Presentaion.Controllers.Products.ProductController",
     "Method": "GetProductById",
-    "RelativePath": "api/Products/{id}",
+    "RelativePath": "api/Product/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -152,6 +376,15 @@
         "StatusCode": 500
       },
       {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
         "Type": "Shared.Dtos.Product.ProductResultDto",
         "MediaTypes": [
           "text/plain",
@@ -165,14 +398,41 @@
   {
     "ContainingType": "Presentaion.Controllers.Products.ProductController",
     "Method": "GetAllBrands",
-    "RelativePath": "api/Products/Brands",
+    "RelativePath": "api/Product/Brands",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shared.Dtos.Product.ProductBrandDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -185,14 +445,41 @@
   {
     "ContainingType": "Presentaion.Controllers.Products.ProductController",
     "Method": "GetAllTypes",
-    "RelativePath": "api/Products/Types",
+    "RelativePath": "api/Product/Types",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Shared.Dtos.Product.ProductTypeDto, Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 500
+      },
+      {
+        "Type": "Shared.ErrorModels.ErrorDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      },
+      {
+        "Type": "Shared.Dtos.Product.ProductResultDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

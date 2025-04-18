@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Services.Abstraction.Authentecation;
 using Services.Abstraction.Basket;
 using Services.Abstraction.Products;
 
@@ -12,6 +13,7 @@ namespace Services.Abstraction
     {
        public  IProductService ProductService { get; }
         public IBasketService basketService { get; }
+        public IAuthenticationService AuthenticationService { get; }
         
     }
 }

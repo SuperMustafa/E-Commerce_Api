@@ -10,6 +10,7 @@ namespace e_Commerce.Extensions
             using var scope = app.Services.CreateScope();
             var DbInitialaizer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
             await DbInitialaizer.InitializeAsync();
+            await DbInitialaizer.InitialzeIdentityAsync();
         }
 
         public static void UseCustomMiddleWare(this WebApplication app)

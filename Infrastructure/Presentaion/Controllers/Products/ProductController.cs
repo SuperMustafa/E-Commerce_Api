@@ -13,9 +13,8 @@ using Shared.ErrorModels;
 namespace Presentaion.Controllers.Products
 {
 
-    [ApiController]
-    [Route("api/[controller]s")]
-    public class ProductController(IServiceManager ServiceManager) : ControllerBase
+   
+    public class ProductController(IServiceManager ServiceManager) : ApiController
     {
         [HttpGet]
         public async Task<ActionResult<PaginatedResult<ProductResultDto>>> GetAllProducts([FromQuery] ProductParameterSpecifications Parameters)
@@ -39,10 +38,7 @@ namespace Presentaion.Controllers.Products
         }
 
         [HttpGet("{id}")]
-        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.NotFound)]
-        [ProducesResponseType(typeof(ErrorDetails), (int)HttpStatusCode.InternalServerError)]
-        [ProducesResponseType(typeof(ProductResultDto), (int)HttpStatusCode.OK)]
-
+        
         public async Task<ActionResult<ProductBrandDto>> GetProductById(int id)
         {
             var Product = await ServiceManager.ProductService.GetProductByIdAsync(id);

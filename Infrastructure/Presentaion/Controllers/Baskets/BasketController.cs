@@ -6,9 +6,8 @@ using Shared.Dtos.Basket;
 
 namespace Presentaion.Controllers.Baskets
 {
-    [ApiController]
-    [Route("/api/[Controller]")]
-    public class BasketController(IServiceManager serviceManager) : ControllerBase
+  
+    public class BasketController(IServiceManager serviceManager) : ApiController
     {
         [HttpGet("{id}")] //get : baseurl/api/basket/id
 
