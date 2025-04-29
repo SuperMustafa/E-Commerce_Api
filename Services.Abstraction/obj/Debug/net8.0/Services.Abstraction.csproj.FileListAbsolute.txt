@@ -1,0 +1,16 @@
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\bin\Debug\net8.0\Services.Abstraction.deps.json
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\bin\Debug\net8.0\Services.Abstraction.dll
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\bin\Debug\net8.0\Services.Abstraction.pdb
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\bin\Debug\net8.0\Shared.dll
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\bin\Debug\net8.0\Shared.pdb
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.csproj.AssemblyReference.cache
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.AssemblyInfoInputs.cache
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.AssemblyInfo.cs
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.csproj.CoreCompileInputs.cache
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.4D1A1826.Up2Date
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.dll
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\refint\Services.Abstraction.dll
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.pdb
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\ref\Services.Abstraction.dll
+E:\asp.net\Assignments\Api\E-Commerce\Services.Abstraction\obj\Debug\net8.0\Services.Abstraction.sourcelink.json

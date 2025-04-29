@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\e-commerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|solutionrelative:e-commerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\payment\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\e-commerce\\extensions\\infrastructureservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E09D906C-0E62-4A58-9CF0-FCE6CC4556B9}|e-Commerce\\e-Commerce.csproj|solutionrelative:e-commerce\\extensions\\infrastructureservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services\\cash\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2956FC6-41EA-4CB2-B41B-0CBC2BDFC047}|Services\\Services.csproj|solutionrelative:services\\cash\\cashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2454C7E1-11B9-4102-8EE9-3995EDD4FB3B}|Infrastructure\\Presentaion\\Presentaion.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\presentaion\\controllers\\payment\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2454C7E1-11B9-4102-8EE9-3995EDD4FB3B}|Infrastructure\\Presentaion\\Presentaion.csproj|solutionrelative:infrastructure\\presentaion\\controllers\\payment\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2454C7E1-11B9-4102-8EE9-3995EDD4FB3B}|Infrastructure\\Presentaion\\Presentaion.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\presentaion\\controllers\\rediscashattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2454C7E1-11B9-4102-8EE9-3995EDD4FB3B}|Infrastructure\\Presentaion\\Presentaion.csproj|solutionrelative:infrastructure\\presentaion\\controllers\\rediscashattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB0A5D99-98D9-4C86-A5D7-CEB728440683}|Services.Abstraction\\Services.Abstraction.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services.abstraction\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB0A5D99-98D9-4C86-A5D7-CEB728440683}|Services.Abstraction\\Services.Abstraction.csproj|solutionrelative:services.abstraction\\icashservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB0A5D99-98D9-4C86-A5D7-CEB728440683}|Services.Abstraction\\Services.Abstraction.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\services.abstraction\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB0A5D99-98D9-4C86-A5D7-CEB728440683}|Services.Abstraction\\Services.Abstraction.csproj|solutionrelative:services.abstraction\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\infrastructure\\persistance\\repositories\\cashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCB87FDB-511C-4756-B066-AA80AD1A2B69}|Infrastructure\\Persistance\\Persistance.csproj|solutionrelative:infrastructure\\persistance\\repositories\\cashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|e:\\asp.net\\assignments\\api\\e-commerce\\core\\domain\\contracts\\icashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62699D95-2118-4342-A833-8767D10FEDB5}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\contracts\\icashrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Payment\\PaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\Payment\\PaymentService.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Payment\\PaymentService.cs",
+              "RelativeToolTip": "Services\\Payment\\PaymentService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:34:58.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Presentaion\\Controllers\\Payment\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Presentaion\\Controllers\\Payment\\PaymentsController.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Presentaion\\Controllers\\Payment\\PaymentsController.cs",
+              "RelativeToolTip": "Infrastructure\\Presentaion\\Controllers\\Payment\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:34:28.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\appsettings.json",
+              "RelativeDocumentMoniker": "e-Commerce\\appsettings.json",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\appsettings.json",
+              "RelativeToolTip": "e-Commerce\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-27T11:27:35.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "Services\\ServiceManager.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\ServiceManager.cs",
+              "RelativeToolTip": "Services\\ServiceManager.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:32:09.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services.Abstraction\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "Services.Abstraction\\IServiceManager.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services.Abstraction\\IServiceManager.cs",
+              "RelativeToolTip": "Services.Abstraction\\IServiceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:31:45.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfrastructureServicesExtensions.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\Extensions\\InfrastructureServicesExtensions.cs",
+              "RelativeDocumentMoniker": "e-Commerce\\Extensions\\InfrastructureServicesExtensions.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\e-Commerce\\Extensions\\InfrastructureServicesExtensions.cs",
+              "RelativeToolTip": "e-Commerce\\Extensions\\InfrastructureServicesExtensions.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAABwAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:29:59.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CashService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Cash\\CashService.cs",
+              "RelativeDocumentMoniker": "Services\\Cash\\CashService.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services\\Cash\\CashService.cs",
+              "RelativeToolTip": "Services\\Cash\\CashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:24:50.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RedisCashAttribute.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Presentaion\\Controllers\\RedisCashAttribute.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Presentaion\\Controllers\\RedisCashAttribute.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Presentaion\\Controllers\\RedisCashAttribute.cs",
+              "RelativeToolTip": "Infrastructure\\Presentaion\\Controllers\\RedisCashAttribute.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAwCwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:01:02.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICashService.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services.Abstraction\\ICashService.cs",
+              "RelativeDocumentMoniker": "Services.Abstraction\\ICashService.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Services.Abstraction\\ICashService.cs",
+              "RelativeToolTip": "Services.Abstraction\\ICashService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:19:50.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICashRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\ICashRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Domain\\Contracts\\ICashRepository.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Core\\Domain\\Contracts\\ICashRepository.cs",
+              "RelativeToolTip": "Core\\Domain\\Contracts\\ICashRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T00:10:20.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CashRepository.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\CashRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistance\\Repositories\\CashRepository.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\Api\\E-Commerce\\Infrastructure\\Persistance\\Repositories\\CashRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistance\\Repositories\\CashRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T23:11:43.681Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
